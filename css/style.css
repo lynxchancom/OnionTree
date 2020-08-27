@@ -1,0 +1,167 @@
+#logo {
+    font-weight:bold;
+}
+
+#content {
+    padding:0.5rem;
+}
+
+#content ul,ol {
+    line-height:2rem;
+}
+
+#content p {
+    text-align:justify;
+    line-height:1.5rem;
+}
+
+#menu {
+    line-height:2.5rem;
+    padding:0.5rem;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+#footer {
+    display:flex;
+    height:2.5rem;
+    line-height:2.5rem;
+    padding:0.5rem;
+    margin-bottom:0.5rem;
+}
+
+#footer > div {
+    width:50%;
+}
+
+#footer > .minor_links {
+    text-align:right;
+}
+
+body {
+    font-size:100%;
+    font-family: sans-serif;
+    color: #333;
+    width: 55%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+}
+
+h1, h2, h3, h4 {
+    color:#C70036;
+}
+
+a {
+    color:#0035C7;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+h2 a {
+    color:inherit;
+}
+
+h2 a:hover {
+    text-decoration:none;
+}
+
+h2 a:hover:after {
+    content:" #";
+}
+
+pre {
+    width:100%;
+    font-size:90%;
+}
+
+.status_beam {
+    border-radius:0.2rem;
+    margin-bottom:0.10rem;
+    margin-right:0.25rem;
+    width:0.4rem;
+    height:0.4rem;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.community_icon {
+    width:1rem;
+    vertical-align:text-top;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.communities {
+    padding-left:0.5rem;
+}
+
+.communities_community {
+    list-style:none;
+}
+
+.urls {
+    padding-left:0.5rem;
+}
+
+.urls_url {
+    list-style:none;
+}
+
+.public_key {
+    margin-bottom:1rem;
+    line-height:2rem;
+}
+
+.muted {
+    color:#777;
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.alert {
+    padding:0.5rem;
+}
+
+.warning {
+}
+
+.menu_item {
+}
+
+.menu_links {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.menu_link {
+    padding-right:1.2rem;
+    font-size:120%;
+}
+
+.clearnet_warning {
+    color:orange;
+    font-weight:bold;
+    cursor:help;
+}
+
